@@ -179,6 +179,16 @@ public class Users implements Serializable{
 	public Users() {
 		super();
 	}
+	@Override
+	public String toString() {
+		return "Users [uId=" + uId + ", username=" + username + ", password=" + password + ", email=" + email + ", tel="
+				+ tel + ", postCode=" + postCode + ", ken_name=" + ken_name + ", city_name=" + city_name + ", address="
+				+ address + ", fname=" + fname + ", lname=" + lname + ", fname1=" + fname1 + ", lname1=" + lname1
+				+ ", admin_id=" + admin_id + ", createtime=" + createtime + ", updatetime=" + updatetime + ", invalid="
+				+ invalid + ", auth=" + auth + ", birthday=" + birthday + ", gender=" + gender + "]";
+	}
+	
+	
     
     
 

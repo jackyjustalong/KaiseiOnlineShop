@@ -2,7 +2,6 @@ package tokyo.kaisei.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import tokyo.kaisei.bean.Users;
@@ -17,8 +16,10 @@ public class UserController {
 	@RequestMapping("/findUser")
 	public Users findUserByUsername(String username) {
 		Users user = userService.findUserByUsername(username);
+		
 		return user;
 	}
+	
 
 	
 }
