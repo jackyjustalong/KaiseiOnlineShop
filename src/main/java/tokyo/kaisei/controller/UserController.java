@@ -14,7 +14,6 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-	@ResponseBody
 	@RequestMapping("/findUser")
 	public Users findUserByUsername(String username) {
 		Users user = userService.findUserByUsername(username);
