@@ -5,8 +5,7 @@ spring:
     allow-bean-definition-overriding: true # 允许覆盖相同类型的bean定义
   component-scan:
     base-packages: 
-      - tokyo.kaisei.dao.after
-      - tokyo.kaisei.service.impl
+      - tokyo.kaisei
 
 # mybatis简单配置
 mybatis:
@@ -14,3 +13,5 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true # 开启驼峰式映射
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl 
+
+

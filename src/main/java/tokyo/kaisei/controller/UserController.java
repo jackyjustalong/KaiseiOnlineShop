@@ -16,7 +16,6 @@ public class UserController {
 	@RequestMapping("/findUser")
 	public Users findUserByUsername(String username) {
 		Users user = userService.findUserByUsername(username);
-		
 		return user;
 	}
 	
