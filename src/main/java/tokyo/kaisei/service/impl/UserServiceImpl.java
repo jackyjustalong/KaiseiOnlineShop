@@ -21,4 +21,10 @@ public class UserServiceImpl implements UserService{
 		return usersMapper.findUserByUsername(username);
 	}
 
+	@Override
+	public Users findUserByUsernamePassword(String username, String password) {
+		// TODO Auto-generated method stub
+		return usersMapper.findUserByUsernamePassword(username, password);
+	}
+
 }

@@ -9,5 +9,7 @@ import tokyo.kaisei.bean.Users;
 public interface UsersMapper {
 	
 	public Users findUserByUsername(String username);
+	
+	public Users findUserByUsernamePassword(String username, String password);
 
 }

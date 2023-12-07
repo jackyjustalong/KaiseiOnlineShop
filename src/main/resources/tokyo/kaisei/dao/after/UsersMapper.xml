@@ -14,7 +14,11 @@
     </resultMap>
     
     <select id="findUserByUsername" parameterType="String" resultType="tokyo.kaisei.bean.Users">
-        select * from users where username=#{username}
+        select * from users where username=#{username};
+    </select>
+    
+    <select id="findUserByUsernamePassword" parameterType="String" resultType="tokyo.kaisei.bean.Users">
+        select * from users where username=#{username} and password=#{password};
     </select>
     
     

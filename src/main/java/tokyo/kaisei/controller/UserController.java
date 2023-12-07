@@ -19,6 +19,14 @@ public class UserController {
 		return user;
 	}
 	
+	@RequestMapping("/login")
+	public Users userLogin(String username, String password) {
+		Users user = userService.findUserByUsernamePassword(username,password);
+		return user;
+	}
+	
+	
+	
 
 	
 }
