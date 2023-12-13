@@ -1,7 +1,5 @@
 # KaiseiOnlineShop
-<<<<<<< HEAD
-for kaisei IT department
-=======
+
 2023.12.01 周五
 
 大家开会，项目开启，先设定项目的技术环境和项目的方向
@@ -24,5 +22,3 @@ for kaisei IT department
 
 经过大家昨天的讨论，发现大家在开发过程中对于eclipse工具还有项目架构搭建配置还存在较多问题，
 以及写代码过程中的问题也较多，今天大家继续解决各自的问题和接着开发接口。
-
->>>>>>> 3e56ce9fc2a192397fcfee2f3070aaa439f60515
