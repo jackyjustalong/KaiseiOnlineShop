@@ -42,5 +42,6 @@
 2023.12.14 周四
 
 大家在写接口过程中发现有Java基础要学习，今天继续练习写接口和补充下java的知识
+已经做好的vue项目的链接：https://github.com/jackyjustalong/onlineshop
 
 
