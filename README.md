@@ -44,4 +44,12 @@
 大家在写接口过程中发现有Java基础要学习，今天继续练习写接口和补充下java的知识
 已经做好的vue项目的链接：https://github.com/jackyjustalong/onlineshop
 
+2023.12.15 周五
+
+今天开始前端开发：
+一 装环境，安装vue环境的文档：
+https://blog.csdn.net/dream_summer/article/details/108867317
+二 先自己网上搜索vue的课程了解vue的语法
+三 我的vue的项目：https://github.com/jackyjustalong/onlineshop
+
 
