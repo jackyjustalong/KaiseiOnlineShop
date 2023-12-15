@@ -47,7 +47,9 @@
 2023.12.15 周五
 
 今天开始前端开发：
+
 一 装环境，安装vue环境的文档：
+
 https://blog.csdn.net/dream_summer/article/details/108867317
 
 二 先自己网上搜索vue的课程了解vue的语法
